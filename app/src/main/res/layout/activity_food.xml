@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.exampleone.nitjsr.firstapp.food">
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/inbutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/inside_campus"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:cub_border_radius="4dp"
+        app:cub_border_color="@android:color/holo_blue_dark"
+        app:cub_color="@android:color/holo_red_dark"
+        app:cub_hover_color="@android:color/holo_blue_dark"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/hallbutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/hostels"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:cub_border_radius="4dp"
+        app:cub_border_color="@android:color/holo_blue_dark"
+        app:cub_color="@android:color/holo_red_dark"
+        app:cub_hover_color="@android:color/holo_blue_dark"
+        android:layout_below="@+id/inbutton"
+        android:layout_alignLeft="@+id/inbutton"
+        android:layout_alignStart="@+id/inbutton" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/outbutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/outside_campus"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:cub_border_radius="4dp"
+        app:cub_border_color="@android:color/holo_blue_dark"
+        app:cub_color="@android:color/holo_red_dark"
+        app:cub_hover_color="@android:color/holo_blue_dark"
+        android:layout_below="@+id/hallbutton"
+        android:layout_alignLeft="@+id/hallbutton"
+        android:layout_alignStart="@+id/hallbutton" />
+
+</RelativeLayout>

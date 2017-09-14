@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_purple">
+
+
+        <ImageView
+            android:id="@+id/customimage"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/dir" />
+
+        <TextView
+            android:id="@+id/customtext"
+            android:layout_width="260dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/customimage"
+            android:layout_toRightOf="@+id/customimage"
+            android:text="@string/textviewr"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/customtext1"
+            android:layout_width="260dp"
+            android:layout_height="28dp"
+            android:text="@string/textviewr1"
+            android:textSize="20sp"
+            android:layout_below="@+id/customtext"
+            android:layout_toRightOf="@+id/customimage"
+            android:layout_toEndOf="@+id/customimage" />
+
+        <TextView
+            android:id="@+id/customtext2"
+            android:layout_width="260dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/customtext3"
+            android:layout_toEndOf="@+id/customimage"
+            android:layout_toRightOf="@+id/customimage"
+            android:text="@string/textviewr2" />
+
+        <TextView
+            android:id="@+id/customtext3"
+            android:layout_width="260dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/customimage"
+            android:layout_toEndOf="@+id/customimage"
+            android:layout_toRightOf="@+id/customimage"
+            android:text="@string/textviewr3" />
+    </RelativeLayout>
+

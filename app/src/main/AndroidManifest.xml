@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exampleone.nitjsr.firstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/unnamed"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/unnamed"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.exampleone.nitjsr.firstapp.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="firstapp" android:host="path" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".firstactivity"
+            android:parentActivityName=".AnimationActivity">
+        </activity>
+
+        <activity
+            android:name=".AnimationActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".People"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Admissions"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Social"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".fests"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".food"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Contacts"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Quicklinks"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Departments"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".about"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".notifications"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".aboutapp"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Developer"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".InsideCampus"
+            android:parentActivityName=".food">
+        </activity>
+
+        <activity
+            android:name=".hallFood"
+            android:parentActivityName=".food">
+        </activity>
+
+        <activity android:name=".OutCampus"
+            android:parentActivityName=".food">
+        </activity>
+
+    </application>
+
+</manifest>

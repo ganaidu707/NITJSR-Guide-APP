@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.exampleone.nitjsr.firstapp.notifications">
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/AcademicNotify"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/academic_notify"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        app:cub_border_radius="4dp"
+        app:cub_border_color="@android:color/holo_blue_dark"
+        app:cub_color="@android:color/holo_red_dark"
+        app:cub_hover_color="@android:color/holo_blue_dark"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/JobNotify"
+        android:layout_alignStart="@+id/JobNotify" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/JobNotify"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/jobs_notify"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        app:cub_border_radius="4dp"
+        app:cub_border_color="@android:color/holo_blue_dark"
+        app:cub_color="@android:color/holo_red_dark"
+        app:cub_hover_color="@android:color/holo_blue_dark"
+        android:layout_marginBottom="108dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

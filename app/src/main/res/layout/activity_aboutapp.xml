@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:background="@android:color/darker_gray"
+    tools:context="com.exampleone.nitjsr.firstapp.aboutapp">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/appabout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:textSize="22sp"
+        android:text="@string/appabout"/>
+
+    <TextView
+        android:id="@+id/apphead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:textSize="28sp"
+        android:text="@string/about_app_nit_jsr_guide"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"/>
+</RelativeLayout>

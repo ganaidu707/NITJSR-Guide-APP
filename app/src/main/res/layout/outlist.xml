@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@android:color/holo_blue_light">
+
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/textarea"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/area" />
+
+    <TextView
+        android:id="@+id/textph"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="23sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/phone" />
+
+    <TextView
+        android:id="@+id/textrating"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="23sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/rating" />
+
+    <TextView
+        android:id="@+id/texttime"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/time"
+        android:textSize="23sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>
