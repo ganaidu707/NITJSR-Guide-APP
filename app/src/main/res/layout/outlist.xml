@@ -22,7 +22,7 @@
         android:layout_height="30dp"
         android:textSize="25sp"
         android:layout_marginTop="5dp"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_purple"
         android:text="@string/area" />
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_height="30dp"
         android:textSize="23sp"
         android:layout_marginTop="2dp"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_purple"
         android:text="@string/phone" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:layout_height="30dp"
         android:textSize="23sp"
         android:layout_marginTop="2dp"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_purple"
         android:text="@string/rating" />
 
     <TextView
@@ -50,5 +50,5 @@
         android:text="@string/time"
         android:textSize="23sp"
         android:layout_marginTop="2dp"
-        android:textColor="@android:color/holo_red_dark" />
+        android:textColor="@android:color/holo_purple" />
 </LinearLayout>

@@ -14,6 +14,6 @@
         android:text="@string/textviewhall"
         android:textSize="35sp"
         android:textStyle="italic"
-        android:textColor="@android:color/holo_red_dark"/>
+        android:textColor="@android:color/holo_green_light"/>
 
 </LinearLayout>
