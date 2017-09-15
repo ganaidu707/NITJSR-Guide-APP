@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/image_build"
-    tools:context="com.exampleone.nitjsr.firstapp.welcomeActivity">
+    tools:context="com.myapps.nitjsr.guide.welcomeActivity">
 
     <TextView
         android:id="@+id/textView_welcome"

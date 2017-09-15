@@ -1,4 +1,4 @@
-package com.exampleone.nitjsr.firstapp;
+package com.myapps.nitjsr.guide;
 
 import org.junit.Test;
 

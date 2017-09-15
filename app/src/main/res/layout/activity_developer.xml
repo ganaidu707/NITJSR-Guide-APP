@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:padding="5dp"
     android:background="@drawable/developernew_min"
-    tools:context="com.exampleone.nitjsr.firstapp.Developer">
+    tools:context="com.myapps.nitjsr.guide.Developer">
 
 
 </RelativeLayout>

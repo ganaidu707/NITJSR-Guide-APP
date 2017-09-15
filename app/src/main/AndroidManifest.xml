@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.exampleone.nitjsr.firstapp">
+    package="com.myapps.nitjsr.guide">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/unnamed"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".welcomeActivity">
+        <activity android:name="com.myapps.nitjsr.guide.welcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +23,8 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
-            android:parentActivityName=".welcomeActivity">
+            android:name="com.myapps.nitjsr.guide.MainActivity"
+            android:parentActivityName="com.myapps.nitjsr.guide.welcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="com.exampleone.nitjsr.firstapp.MainActivity" />
@@ -36,87 +36,87 @@
         </activity>
 
         <activity
-            android:name=".firstactivity"
-            android:parentActivityName=".AnimationActivity">
+            android:name="com.myapps.nitjsr.guide.firstactivity"
+            android:parentActivityName="com.myapps.nitjsr.guide.AnimationActivity">
         </activity>
 
         <activity
-            android:name=".AnimationActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.AnimationActivity"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".People"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.People"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".Admissions"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.Admissions"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".Social"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.Social"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".fests"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.fests"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".food"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.food"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".Contacts"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.Contacts"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".Quicklinks"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.Quicklinks"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".Departments"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.Departments"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".about"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.about"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".notifications"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.notifications"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".aboutapp"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.aboutapp"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".Developer"
-            android:parentActivityName=".MainActivity">
+            android:name="com.myapps.nitjsr.guide.Developer"
+            android:parentActivityName="com.myapps.nitjsr.guide.MainActivity">
         </activity>
 
         <activity
-            android:name=".InsideCampus"
-            android:parentActivityName=".food">
+            android:name="com.myapps.nitjsr.guide.InsideCampus"
+            android:parentActivityName="com.myapps.nitjsr.guide.food">
         </activity>
 
         <activity
-            android:name=".hallFood"
-            android:parentActivityName=".food">
+            android:name="com.myapps.nitjsr.guide.hallFood"
+            android:parentActivityName="com.myapps.nitjsr.guide.food">
         </activity>
 
-        <activity android:name=".OutCampus"
-            android:parentActivityName=".food">
+        <activity android:name="com.myapps.nitjsr.guide.OutCampus"
+            android:parentActivityName="com.myapps.nitjsr.guide.food">
         </activity>
 
     </application>

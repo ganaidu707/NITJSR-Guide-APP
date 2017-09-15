@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:largeHeap="true"
     android:hardwareAccelerated="false"
-    tools:context="com.exampleone.nitjsr.firstapp.People">
+    tools:context="com.myapps.nitjsr.guide.People">
 
 </ListView>
 

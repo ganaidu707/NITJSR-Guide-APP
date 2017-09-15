@@ -1,4 +1,4 @@
-package com.exampleone.nitjsr.firstapp;
+package com.myapps.nitjsr.guide;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

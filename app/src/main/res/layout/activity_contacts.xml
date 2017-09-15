@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/darker_gray"
-    tools:context="com.exampleone.nitjsr.firstapp.Contacts">
+    tools:context="com.myapps.nitjsr.guide.Contacts">
 
     <com.github.barteksc.pdfviewer.PDFView
         android:layout_width="match_parent"
