@@ -47,7 +47,7 @@ public class People extends AppCompatActivity {
         list.add(new peopleitem("Mr.Amit Prakash", "Electrical Works", "amitprakash.ece@nitjsr.ac.in", "+91-9431905737", R.drawable.amitprakash));
         list.add(new peopleitem("Dr.Tarni Mandal", "Digital Campus", "tmandal.math@nitjsr.ac.in", "+91-9431752766", R.drawable.tmandal));
         list.add(new peopleitem("Mr.R.Ranjan Suman", "Digital Campus", "rrsuman.cse@nitjsr.ac.in", "+91-8434765977", R.drawable.rajivranjan));
-        list.add(new peopleitem("Dr.Amaresh Kumar", "Academic: UG", "akumar.prod@nitjsr.ac.in", "---------)", R.drawable.amreshkumar));
+        list.add(new peopleitem("Dr.Amaresh Kumar", "Academic: UG", "akumar.prod@nitjsr.ac.in", "---------", R.drawable.amreshkumar));
         list.add(new peopleitem("Mr.B.N.S.Munda", "Students Welfare", "bsmunda.ece@nitjsr.ac.in", "+91-9472786704", R.drawable.bsmunda));
         list.add(new peopleitem("Dr.M.K. Sinha", "Research&Consultancy", "mksinha.me@nitjsr.ac.in", "+91-9006771843", R.drawable.mkinha));
         list.add(new peopleitem("Dr.A.K. Sinha", "Industry&Alumni", "aksinha.ce@nitjsr.ac.in", "+91 9576578533", R.drawable.studentportal));
