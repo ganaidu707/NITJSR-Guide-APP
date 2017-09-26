@@ -31,26 +31,26 @@ public class People extends AppCompatActivity {
         list.add(new peopleitem("Dr.M.K.Agarwal", "Registrar", "registrar@nitjsr.ac.in", "0657-23736299(O)", R.drawable.maheshkumar));
 
         list.add(new String("Deans"));
-        list.add(new peopleitem("Prof.Anand Mukut Tigga", "Administration&Faculty welfare", "amtigga.prod@nitjsr.ac.in", "+91-9835381340", R.drawable.anandmukut));
-        list.add(new peopleitem("Prof.Madan Mohan Prasad", "Planning&Development", "mmprasad.ce@nitjsr.ac.in", "------", R.drawable.mandan));
+        list.add(new peopleitem("Prof.A.M. Tigga", "Administration&Faculty welfare", "amtigga.prod@nitjsr.ac.in", "+91-9835381340", R.drawable.anandmukut));
+        list.add(new peopleitem("Prof.M.M. Prasad", "Planning&Development", "mmprasad.ce@nitjsr.ac.in", "------", R.drawable.mandan));
         list.add(new peopleitem("Dr.Danish Ali Khan", "Academic&e-Governance", "dakhan.ca@nitjsr.ac.in", "+91-9835546792", R.drawable.alikhan));
         list.add(new peopleitem("Dr.Sripati Jha", "Students Welfare", "sjha.math@nitjsr.ac.in", "+91-9934532473", R.drawable.sripathija));
-        list.add(new peopleitem("Prof.Hari Narayan Singh", "Research and Consultancy", "hnsingh.me@nitjsr.ac.in", "+91-9431934051", R.drawable.hnsingh));
+        list.add(new peopleitem("Prof.H.N. Singh", "Research and Consultancy", "hnsingh.me@nitjsr.ac.in", "+91-9431934051", R.drawable.hnsingh));
         list.add(new peopleitem("Prof.Sanjay", "Industry&Alumni", "sanjay.me@nitjsr.ac.in", "+91-9430738551", R.drawable.sanjay));
 
         list.add(new String("Associate Deans"));
         list.add(new peopleitem("Dr.Raj Ballav", "Faculty Welfare", "rballav.prod@nitjsr.ac.in", "+91-9835702810", R.drawable.rajballavmanu));
         list.add(new peopleitem("Dr.M.K.Agarwal", "Planning&Development", "mkagarwal.met@nitjsr.ac.in", "0657-2373629", R.drawable.maheshkumar));
-        list.add(new peopleitem("Dr.Shashi Bhushan Prasad", "Housekeeping&Green Campus", "sbprasad.prod@nitjsr.ac.in", "-------", R.drawable.sashibushan));
+        list.add(new peopleitem("Dr.S.Bhushan Prasad", "Housekeeping&Green Campus", "sbprasad.prod@nitjsr.ac.in", "-------", R.drawable.sashibushan));
         list.add(new peopleitem("Mr.Nigam Prakash", "Planning&Development", "nigamprakash.civil@nitjsr.ac.in", "+91-9973771555", R.drawable.nigam_prakash));
         list.add(new peopleitem("Mr.R.P. Singh", "Planning&Development", "rpsingh.ce@nitjsr.ac.in", "--------", R.drawable.rakeshpratap));
         list.add(new peopleitem("Mr.Amit Prakash", "Electrical Works", "amitprakash.ece@nitjsr.ac.in", "+91-9431905737", R.drawable.amitprakash));
         list.add(new peopleitem("Dr.Tarni Mandal", "Digital Campus", "tmandal.math@nitjsr.ac.in", "+91-9431752766", R.drawable.tmandal));
-        list.add(new peopleitem("Mr.Rajiv Ranjan Suman", "Digital Campus", "rrsuman.cse@nitjsr.ac.in", "+91-8434765977", R.drawable.rajivranjan));
+        list.add(new peopleitem("Mr.R.Ranjan Suman", "Digital Campus", "rrsuman.cse@nitjsr.ac.in", "+91-8434765977", R.drawable.rajivranjan));
         list.add(new peopleitem("Dr.Amaresh Kumar", "Academic: UG", "akumar.prod@nitjsr.ac.in", "---------)", R.drawable.amreshkumar));
         list.add(new peopleitem("Mr.B.N.S.Munda", "Students Welfare", "bsmunda.ece@nitjsr.ac.in", "+91-9472786704", R.drawable.bsmunda));
-        list.add(new peopleitem("Dr.Mrityunjay Kumar Sinha", "Research&Consultancy", "mksinha.me@nitjsr.ac.in", "+91-9006771843", R.drawable.mkinha));
-        list.add(new peopleitem("Dr.Abdhesh Kumar Sinha", "Industry&Alumni", "aksinha.ce@nitjsr.ac.in", "+91 9576578533", R.drawable.studentportal));
+        list.add(new peopleitem("Dr.M.K. Sinha", "Research&Consultancy", "mksinha.me@nitjsr.ac.in", "+91-9006771843", R.drawable.mkinha));
+        list.add(new peopleitem("Dr.A.K. Sinha", "Industry&Alumni", "aksinha.ce@nitjsr.ac.in", "+91 9576578533", R.drawable.studentportal));
         list.add(new peopleitem("Dr.Ch.M.S. Rao", "Recognition&Accre.", "chmadhurao.ce@nitjsr.ac.in", "+91-7870344602", R.drawable.madhusudana));
         list.add(new peopleitem("Dr.Balram Ambade", "Students Welfare", "bambade.chem@nitjsr.ac.in", "+91-9122056501", R.drawable.balaramambade));
 
